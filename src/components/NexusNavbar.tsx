@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import nexusLogo from "@/assets/logo-nexus.png";
 
@@ -40,6 +40,11 @@ const NexusNavbar = () => {
               {item.label}
             </button>
           ))}
+          <a href="tel:+573195992929">
+            <Button variant="heroOutline" size="sm" className="gap-1">
+              <Phone className="w-4 h-4" /> Contactar
+            </Button>
+          </a>
           <Button variant="cta" size="lg" onClick={() => scrollTo("cta-final")}>
             Solicitar Auditoría
           </Button>
@@ -75,6 +80,11 @@ const NexusNavbar = () => {
                   {item.label}
                 </button>
               ))}
+              <a href="tel:+573195992929">
+                <Button variant="heroOutline" size="lg" className="w-full gap-1">
+                  <Phone className="w-4 h-4" /> Contactar
+                </Button>
+              </a>
               <Button variant="cta" size="lg" onClick={() => scrollTo("cta-final")} className="mt-2">
                 Solicitar Auditoría
               </Button>

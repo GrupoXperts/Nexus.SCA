@@ -9,10 +9,12 @@ import DeepDiveSection from "@/components/sections/DeepDiveSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTAFinalSection from "@/components/sections/CTAFinalSection";
 import FooterSection from "@/components/sections/FooterSection";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const Index = () => (
   <div className="min-h-screen">
     <NexusNavbar />
+    <WhatsAppFloat />
     <HeroSection />
     <IntroSection />
     <BenefitsSection />

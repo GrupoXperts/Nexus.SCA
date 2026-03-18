@@ -52,9 +52,11 @@ const HeroSection = () => {
           <Button variant="cta" size="lg" className="text-base px-10 py-6" onClick={() => scrollTo("cta-final")}>
             Solicitar Mi Auditoría Ahora
           </Button>
-          <Button variant="heroOutline" size="lg" className="text-base px-10 py-6" onClick={() => scrollTo("beneficios")}>
-            Ver Beneficios
-          </Button>
+          <a href="https://wa.me/573195992929?text=Hola%2C%20estoy%20interesado%20en%20los%20servicios%20de%20Nexus%20Protect." target="_blank" rel="noopener noreferrer">
+            <Button variant="heroOutline" size="lg" className="text-base px-10 py-6 gap-2">
+              <MessageCircle className="w-5 h-5" /> Asegurar Mi Infraestructura Hoy
+            </Button>
+          </a>
         </motion.div>
       </div>
 

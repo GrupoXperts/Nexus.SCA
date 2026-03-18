@@ -23,12 +23,16 @@ const CTAFinalSection = () => (
           Proteja a su gente, sus bienes y su tranquilidad con Nexus Protect.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="cta" size="lg" className="text-base px-10 py-6">
-            Solicitar Mi Auditoría y Cotización Ahora
-          </Button>
-          <Button variant="heroOutline" size="lg" className="text-base px-10 py-6">
-            Asegurar Mi Infraestructura Hoy
-          </Button>
+          <a href="https://wa.me/573195992929?text=Hola%2C%20quiero%20solicitar%20mi%20auditor%C3%ADa%20y%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer">
+            <Button variant="cta" size="lg" className="text-base px-10 py-6 gap-2">
+              <MessageCircle className="w-5 h-5" /> Solicitar Mi Auditoría y Cotización Ahora
+            </Button>
+          </a>
+          <a href="tel:+573195992929">
+            <Button variant="heroOutline" size="lg" className="text-base px-10 py-6 gap-2">
+              <Phone className="w-5 h-5" /> Llama Ahora
+            </Button>
+          </a>
         </div>
       </motion.div>
     </div>

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Shield } from "lucide-react";
+import { Shield, Phone, MessageCircle } from "lucide-react";
 
 const CTAFinalSection = () => (
   <section id="cta-final" className="py-24 bg-section-dark text-primary-foreground relative overflow-hidden">

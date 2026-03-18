@@ -40,6 +40,11 @@ const NexusNavbar = () => {
               {item.label}
             </button>
           ))}
+          <a href="tel:+573195992929">
+            <Button variant="heroOutline" size="sm" className="gap-1">
+              <Phone className="w-4 h-4" /> Contactar
+            </Button>
+          </a>
           <Button variant="cta" size="lg" onClick={() => scrollTo("cta-final")}>
             Solicitar Auditoría
           </Button>

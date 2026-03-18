@@ -48,9 +48,12 @@ const NexusNavbar = () => {
               <Phone className="w-4 h-4" /> Contactar
             </Button>
           </a>
-          <Button variant="cta" size="lg" onClick={() => scrollTo("cta-final")}>
-            Solicitar Auditoría
-          </Button>
+          <a href="https://forms.gle/kB4LEtfkPuHvyKnQ6" target="_blank" rel="noreferrer">
+  <Button variant="cta" size="lg">
+    Solicitar Auditoría
+  </Button>
+</a>
+
         </div>
 
         {/* Mobile Toggle */}

@@ -20,8 +20,11 @@ const NexusNavbar = () => {
       </div>
 
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo("hero")}>
-          <img src={nexusLogo} alt="Nexus Protect" className="h-10 w-auto" />
+        <div className="flex items-center gap-2 cursor-pointer group" onClick={() => scrollTo("hero")}>
+          <div className="relative">
+            <div className="absolute inset-0 bg-white/30 rounded-xl blur-md group-hover:bg-white/50 transition-all duration-300" />
+            <img src={nexusLogo} alt="Nexus Protect" className="relative h-[52px] w-auto drop-shadow-[0_0_12px_rgba(255,255,255,0.6)] group-hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300" />
+          </div>
         </div>
 
         {/* Desktop Nav */}

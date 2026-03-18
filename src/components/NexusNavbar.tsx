@@ -21,10 +21,7 @@ const NexusNavbar = () => {
 
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo("hero")}>
-          <Shield className="w-7 h-7 text-accent" />
-          <span className="font-heading font-bold text-xl text-primary-foreground tracking-tight">
-            NEXUS <span className="text-accent">PROTECT</span>
-          </span>
+          <img src={nexusLogo} alt="Nexus Protect" className="h-10 w-auto" />
         </div>
 
         {/* Desktop Nav */}

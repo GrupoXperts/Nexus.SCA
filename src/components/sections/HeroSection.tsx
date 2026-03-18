@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-nexus.jpg";
 
 const HeroSection = () => {

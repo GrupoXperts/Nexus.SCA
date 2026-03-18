@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Shield } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import nexusLogo from "@/assets/logo-nexus.png";
 
 const NexusNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

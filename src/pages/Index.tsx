@@ -1,16 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import NexusNavbar from "@/components/NexusNavbar";
+import HeroSection from "@/components/sections/HeroSection";
+import IntroSection from "@/components/sections/IntroSection";
+import BenefitsSection from "@/components/sections/BenefitsSection";
+import SocialProofSection from "@/components/sections/SocialProofSection";
+import GuaranteeSection from "@/components/sections/GuaranteeSection";
+import AnchorSection from "@/components/sections/AnchorSection";
+import DeepDiveSection from "@/components/sections/DeepDiveSection";
+import FAQSection from "@/components/sections/FAQSection";
+import CTAFinalSection from "@/components/sections/CTAFinalSection";
+import FooterSection from "@/components/sections/FooterSection";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-};
-
-const Index = PlaceholderIndex;
+const Index = () => (
+  <div className="min-h-screen">
+    <NexusNavbar />
+    <HeroSection />
+    <IntroSection />
+    <BenefitsSection />
+    <SocialProofSection />
+    <GuaranteeSection />
+    <AnchorSection />
+    <DeepDiveSection />
+    <FAQSection />
+    <CTAFinalSection />
+    <FooterSection />
+  </div>
+);
 
 export default Index;
